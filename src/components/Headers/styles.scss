@@ -1,0 +1,27 @@
+.header {
+    height: 6.5rem;
+    width: 100%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0, .1);
+    min-width: 600px;
+}
+.headerContainer {
+    height: 100%;
+    display: flex;
+    padding: 0px 30px !important;
+    align-items: center;
+}
+.navHeaderButtons {
+    display: flex;
+    flex: 1 0 auto !important;
+    justify-content: flex-end !important;
+}
+
+.searchBar {
+    display: flex;
+    border: 1px solid rgb(131, 131, 131);
+    border-radius: 24px !important;
+    width: 100%;
+    padding: 0px 30px;
+    margin-right: 5%;
+    margin-left: 10%;
+}
